@@ -139,3 +139,6 @@ public:
 };
 
 extern EEConfig * g_pConfig;
+
+#include "etmdummy.h"
+#define ETW_EVENT_ENABLED(e,f) false
