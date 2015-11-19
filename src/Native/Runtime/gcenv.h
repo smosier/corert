@@ -9,6 +9,7 @@
 #pragma warning( disable: 4127 )  // conditional expression is constant -- common in GC
 #endif
 
+#include "sal.h"
 #include "gcenv.base.h"
 
 #include "Crst.h"
@@ -20,8 +21,8 @@
 #include "eetype.h"
 #include "ObjectLayout.h"
 #include "rheventtrace.h"
-#include "palredhawkcommon.h"
-#include "palredhawk.h"
+#include "PalRedhawkCommon.h"
+#include "PalRedhawk.h"
 #include "gcrhinterface.h"
 
 #ifdef CORERT // no real ETW in CoreRT yet
