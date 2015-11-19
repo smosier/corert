@@ -9,6 +9,7 @@
 #pragma warning( disable: 4127 )  // conditional expression is constant -- common in GC
 #endif
 
+#include <sal.h>
 #include "gcenv.base.h"
 
 #include "Crst.h"
