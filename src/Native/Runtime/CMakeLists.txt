@@ -114,7 +114,6 @@ if(WIN32)
   add_compile_options(/fp:precise)
   add_compile_options(/EHsc)
 else()
-  add_definitions(-DPAL_STDCPP_COMPAT)
   add_definitions(-DNO_UI_ASSERT)
 
   add_compile_options(-Wno-format)

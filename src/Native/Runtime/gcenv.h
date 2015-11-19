@@ -232,4 +232,4 @@ class GCHeap;
 typedef DPTR(GCHeap) PTR_GCHeap;
 typedef DPTR(uint32_t) PTR_uint32_t;
 
-enum CLRDataEnumMemoryFlags;
+enum CLRDataEnumMemoryFlags : int;

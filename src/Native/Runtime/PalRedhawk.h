@@ -792,6 +792,10 @@ REDHAWK_PALIMPORT UInt32_BOOL REDHAWK_PALAPI PalAllocateThunksFromTemplate(_In_ 
 
 REDHAWK_PALIMPORT UInt32 REDHAWK_PALAPI PalCompatibleWaitAny(UInt32_BOOL alertable, UInt32 timeout, UInt32 count, HANDLE* pHandles, UInt32_BOOL allowReentrantWait);
 
+#ifndef _MSC_VER
+REDHAWK_PALIMPORT Int32 __cdecl _wcsicmp(const wchar_t *string1, const wchar_t *string2);
+#endif // _MSC_VER
+
 #include "PalRedhawkInline.h"
 
 #endif // !PAL_REDHAWK_INCLUDED

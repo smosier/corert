@@ -16,6 +16,7 @@
 #define _ASSERTE(_expr) ASSERT(_expr)
 #endif
 
+#include "sal.h"
 #include "gcenv.base.h"
 #include "gcenv.object.h"
 #include "gcenv.sync.h"
